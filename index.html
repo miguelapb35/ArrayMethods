@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <title>Js Methods</title>
 </head>
-<body>
+<body class="container">
   <div class="row flow-text">
     <div class="col s12 center-align">
       <h1>Modern Javascript</h1>
@@ -43,13 +43,12 @@
                 <h5><code>]</code></h5>
               </li>
             </ul>
-        </div>
-    </div>
-  
-  <div class="row flow-text">
-<!-- left -->
-    <div class="col s6 left-align">
-        <div class="section">
+      </div>
+  </div>
+<!-- left -->  
+<div class="row flow-text">
+  <div class="col s12 m6 left-align">
+    <div class="section">
           <h5>filter()</h5>
             <small>  
               const filteredItems = items.<b>filter</b>((item) => {
@@ -63,9 +62,11 @@
                 <small>name:'Book', price: 5 </small> 
               </li>              
             </ul>
-        </div>
-      <div class="divider"></div>        
-        <div class="section">
+    </div>
+    
+    <div class="divider"></div>        
+    
+    <div class="section">
           <h5>find()</h5>
             <small>  
               const foundItem = items.<b>find</b>((item) => {
@@ -77,9 +78,11 @@
                 <small>name:'Book', price: 5</small> 
               </li>
           </ul>                     
-        </div>   
-      <div class="divider"></div>
-        <div class="section">
+    </div>  
+
+    <div class="divider"></div>
+    
+    <div class="section">
           <h5>forEach()</h5>
             <small>  
               items.<b>forEach</b>((item) => {
@@ -109,8 +112,9 @@
                 <small>25</small> 
               </li>
           </ul>                     
-        </div>  
-        <div class="section">
+    </div>  
+
+    <div class="section">
           <h5>reduce()</h5>
             <small>  
               const total = items.<b>reduce</b>((currentTotal, item) => {
@@ -123,11 +127,12 @@
                 <small>1840</small> 
               </li>
             </ul> 
-        </div>
-      <div class="divider"></div>                  
-    </div>
+    </div>    
+  </div>
+
 <!--  right-->
-    <div class="col s6">
+
+  <div class="col s12 m6 ">
         <div class="section">
           <h5>map()</h5>
             <small>  
@@ -159,7 +164,9 @@
               </li>
           </ul>                     
         </div>
-        <div class="section"></div>  
+
+        <div class="section"></div>
+
         <div class="section">
           <h5>some()</h5>
             <small>  
@@ -174,7 +181,9 @@
               </li>
             </ul>                     
         </div>
+
         <div class="divider"></div>
+
         <div class="section">
           <h5>every() </h5>
             <small>  
@@ -189,7 +198,9 @@
               </li>
           </ul>                     
         </div>
+
         <div class="divider"></div>
+
         <div class="section">
           <h5>include() </h5>
             <p>const items = [1,2,3,4,5] </p>
@@ -204,7 +215,10 @@
           </ul>                     
         </div>
     </div>
-  </div>  
+
+</div>
+
+
 
 
 
